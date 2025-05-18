@@ -1,0 +1,31 @@
+{
+  "name": "mcp-server-oci",
+  "version": "1.0.0",
+  "description": "MCP Server implementation on Oracle Cloud Infrastructure",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "start-server": "ts-node src/mcp-server/server.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "MCP",
+    "AI",
+    "OCI",
+    "agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.10.0",
+    "@modelcontextprotocol/client-typescript": "^0.5.0",
+    "@modelcontextprotocol/server-typescript": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
